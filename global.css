@@ -1,0 +1,38 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: "Lato";
+}
+
+body{
+    background-color: #414042;
+    overflow-x: hidden;
+}
+p{
+  margin:0;
+}
+
+.bounce-animation {
+  animation-name: bounce-animation;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce-animation {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-12px); }
+  100% { transform: translateY(0); }
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(./assets/fonts/Lato/Lato-Regular.ttf);
+  }
+@font-face {
+    font-family: Lato-Light;
+    src: url(./assets/fonts/Lato/Lato-Light.ttf);
+  }
+@font-face {
+    font-family: GothamRounded;
+    src: url(./assets/fonts/GothamRounded-Medium.otf);
+  }
